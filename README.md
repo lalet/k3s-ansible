@@ -1,3 +1,6 @@
+# Command to run ansible notebook with custom key
+ansible-playbook playbook/site.yml -i inventory.yml -k --extra-vars "ansible_user=<username>"
+
 # Build a Kubernetes cluster using K3s via Ansible
 
 Author: <https://github.com/itwars>  
