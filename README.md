@@ -5,6 +5,8 @@ Copy config from master node to local
 
 `scp -i ~/.ssh/id_rsa <<username>>@<<controller-ip>>:~/.kube/config ~/.kube/config-local`
 
+ssh -i <<key>> 10.0.0.188 -l <name>
+
 # Build a Kubernetes cluster using K3s via Ansible
 
 Author: <https://github.com/itwars>  
